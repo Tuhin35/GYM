@@ -16,6 +16,8 @@ padding: 0px;
 
 a{
     text-decoration: none;
+    color: antiquewhite;
+    
 }
 .nav-link li{
    
@@ -25,9 +27,9 @@ a{
     font-size: 20px;
    
 }
-.nav-link li:hover{
+.nav-link li a:hover{
     
-    color:blanchedalmond;
+    color:rgb(205, 206, 255);
    font-size: 22px;
    cursor: pointer;
 }
