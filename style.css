@@ -1,0 +1,188 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+
+.nav-link{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+.nav-link li{
+   
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+   
+}
+.nav-link li:hover{
+    
+    color:blanchedalmond;
+   font-size: 22px;
+   cursor: pointer;
+}
+
+.home-page{
+    display: flex;
+  width: 100%;
+  height: 100vh;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+   
+}
+.home-text{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+button{
+    padding: 8px;
+    background-color: brown;
+    color: bisque;
+}
+.home-pic img{
+
+    
+    height: 100vh;
+    width: 100%;
+       
+}
+.about{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+
+}
+.about-card{
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.card1{
+    border: 2px solid lightpink;
+    box-shadow: 5px 8px gray;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.09s;
+}
+
+.card1:hover{
+    color: white;
+    background-color: black;
+    transition: 0.09s;
+    box-shadow: 6px 10px rgba(187, 226, 96, 0.781);
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.service-pic{
+    display: flex;
+    
+    flex-direction: row; 
+   
+    align-items: center;
+}
+
+.img1{
+    height: 75vh;
+    width: 50%;
+
+
+}
+.img2{
+    height: 75vh;
+    width: 50%;
+
+
+}
+
+.service-decorestion{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 75vh;
+  
+}
+
+.service-text{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.service{
+    height: 80vh;
+    width: 100%;
+    margin-top: 100px;
+
+}
+.injury-decurestion{
+    display: flex;
+   
+
+  justify-content: space-between;
+   text-align: center;
+   margin: 0px 40px;
+
+}
+
+.inury-card{
+    border: 2px solid lightgoldenrodyellow;
+    border-radius: 10px;
+    box-shadow: 10px 5px gray;
+    transition: 0.09s;
+}
+
+.injury{
+    margin-top: 100px;
+}
+.inury-card:hover{
+    color: white;
+    background-color: black;
+    transition: 0.09s;
+    box-shadow: 6px 10px rgba(187, 226, 96, 0.781);
+    align-items: center;
+   
+  
+    border-radius: 10px;
+  
+}
+.fotter1{
+   
+    text-align: center;
+   
+}
+footer{
+    margin-top: 60px;
+    padding: 30px;
+    background-color: lightcyan;
+}
+.copyright{
+  text-align: center;
+}
